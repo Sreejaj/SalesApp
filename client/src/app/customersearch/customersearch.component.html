@@ -1,0 +1,7 @@
+<div >
+  <select (change)="selectedCustomer($event.target.value)"  [(ngModel)]="id">
+    <option  *ngFor="let customer of searchedCustomers" value={{customer.customerid}}>
+     {{customer.name}}
+    </option> 
+  </select>
+</div>

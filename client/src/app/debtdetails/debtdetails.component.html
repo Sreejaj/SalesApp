@@ -1,0 +1,15 @@
+
+ <div class="form-group col-sm-6 col-xs-12">
+  <div class="form-group ">
+    <label for="openingDebt" >Opening Debt</label>
+    <input class="form-control" type="number" id="Openingdebt"  [(ngModel)]="openingDebt" name="userName" placeholder="Openingdebt" required (ngModelChange)="onChange()" >
+</div>
+<div class="form-group ">
+    <label for="Currency">Currency</label>
+    <input class="form-control" type="text" id="Currency"  [(ngModel)]="currency" name="Currency" placeholder="Currency" required (ngModelChange)="onChange()">
+</div>
+<div class="form-group ">
+    <label for="InvoiceNo" >Sale Invoice Number</label>
+    <input class="form-control" type="text" id="InvoiceNo"  [(ngModel)]="invoiceNo" name="InvoiceNo" placeholder="Sale Invoice#" required (ngModelChange)="onChange()" >
+</div>
+ </div>

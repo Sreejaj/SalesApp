@@ -1,0 +1,52 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="#">Debt Management Solution (DMS)</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+      <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+          <li class="nav-item ">
+            <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              {{user.fullName}}
+            </a>
+          </li>
+
+      </ul>
+</nav>
+
+<div class="starter-template">
+      <h1>Sales Details</h1>            
+</div>
+
+<form>
+<div class="container formborder">
+<div class="col-xs-12 col-sm-12">
+  <div class="row">
+      <h4></h4>
+      <div class="col-xs-12 col-sm-12">
+          <customer-search></customer-search>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-sm-6 col-xs-12">              
+          <debt-details></debt-details>
+      </div>
+      <div class="col-sm-6 col-xs-12">
+          <h4>Add Payments</h4>
+          <payment></payment>
+      </div>
+  </div>    
+  <div  class="row">
+      <div class="col-xs-12 col-sm-12">
+          <payment-details></payment-details>
+      </div>
+  </div>
+  <div  class="row">
+          <div class="col-xs-12 col-sm-5"></div>
+          <div class="col-xs-12 col-sm-2">
+                  <button   class="btn btn-primary btn-lg btn-block" type="submit" (click)="saveDetail()">Save  </button>
+          </div>
+      </div>
+</div>
+</div>
+</form>

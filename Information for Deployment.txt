@@ -1,0 +1,15 @@
+The datbase script is available in the root folder
+
+The client application in angular 6 is available in client folder 
+
+The web api source code is available in Sales folder
+
+data need to inserted into operator table for login to work
+
+Customer table should have data to make the customer filter in home page to worK
+
+Appsettings should have the proper connectionstring
+
+As the angular will work with node, node js should be installed.
+
+Took 8 hrs to write this.
