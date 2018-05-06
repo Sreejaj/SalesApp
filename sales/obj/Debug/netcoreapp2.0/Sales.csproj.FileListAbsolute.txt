@@ -1,0 +1,11 @@
+C:\Sreeja\Test\Sales\Sales\bin\Debug\netcoreapp2.0\Sales.deps.json
+C:\Sreeja\Test\Sales\Sales\bin\Debug\netcoreapp2.0\Sales.runtimeconfig.json
+C:\Sreeja\Test\Sales\Sales\bin\Debug\netcoreapp2.0\Sales.runtimeconfig.dev.json
+C:\Sreeja\Test\Sales\Sales\bin\Debug\netcoreapp2.0\Sales.dll
+C:\Sreeja\Test\Sales\Sales\bin\Debug\netcoreapp2.0\Sales.pdb
+C:\Sreeja\Test\Sales\Sales\obj\Debug\netcoreapp2.0\Sales.csprojResolveAssemblyReference.cache
+C:\Sreeja\Test\Sales\Sales\obj\Debug\netcoreapp2.0\Sales.csproj.CoreCompileInputs.cache
+C:\Sreeja\Test\Sales\Sales\obj\Debug\netcoreapp2.0\Sales.AssemblyInfoInputs.cache
+C:\Sreeja\Test\Sales\Sales\obj\Debug\netcoreapp2.0\Sales.AssemblyInfo.cs
+C:\Sreeja\Test\Sales\Sales\obj\Debug\netcoreapp2.0\Sales.dll
+C:\Sreeja\Test\Sales\Sales\obj\Debug\netcoreapp2.0\Sales.pdb
