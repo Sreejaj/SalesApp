@@ -16,7 +16,7 @@ namespace Sales.Controllers
     public class SalesController : Controller
     {
         private readonly SalesDbContext _dbContext;
-        SalesController(SalesDbContext context)
+        public SalesController(SalesDbContext context)
         {
             _dbContext = context;
         }
